@@ -27,6 +27,10 @@
   no banco de dados, funcionalidade do teste 7.
     Para o funcionamento deste formulário, a necessidade da criação de um banco de dados (teste 6), foi muito alta. 
     O mesmo foi construído com SQL Server, que tem como intuito, salvar as informações, como solicitado do teste 10.
+    Para a construção deste foi necessário seguir o seguinte caminho: ``gerenciador de servidores -> (depois de clicar com o botão direito) 
+    Adicionar conexão -> escolher o nome da conexão -> (Botão direito em tabelas) adicionar tabela -> usar o script sql no arquivo dbo.table.sql 
+    para a criação da tabela -> em propriedades da conexão, copiar a "Cadeia de conexão". -> adicionar à variável "String connectionString" em "paginateste5.cs"   
+    `` 
 
   # TESTES 5, 7 E 10: 
   
