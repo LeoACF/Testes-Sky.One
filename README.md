@@ -1,7 +1,9 @@
 # Testes-Sky.One
+
   Solução dos testes de .Net para o processo seletivo de Sky.One
 
 #SOBRE O CONTEÚDO DO REPOSITÓRIO
+
   A Primeira pasta, "Teste SkyOne 1-3" contém o código da Console Application dos testes 1-2-3.
   A Segunda contém um Windows forms com dois formulários para os testes 4-5-6-7-8-9-10, junto do script 
   sql para a criação da tabela usada no projeto.
