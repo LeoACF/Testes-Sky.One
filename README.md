@@ -17,7 +17,8 @@
 
  # SEGUNDA PASTA:
       
- ## Para conectar com o banco de dados:<br><br> Em gerenciador de servidores:<br> 1.  Adicionar conexão (depois de clicar com o botão direito).<br> 2. Usar o script sql no arquivo dbo.table.sql 
+ ## Para conectar com o banco de dados:<
+ Em gerenciador de servidores:<br> 1.  Adicionar conexão (depois de clicar com o botão direito).<br> 2. Usar o script sql no arquivo dbo.table.sql 
 para a criação da tabela.<br><br>
 3. a)Selecionar "Arquivo de Banco de Dados do Microsoft SQL Server".<br> b) Adicionar um nome ao arquivo.<br>c) Usar Autenticação do Windows.<br> d)Adicionar um nome ao arquivo. <br><br>
 4. Clicar com o botão direito em Tabela e usar o código de dbo.Table.sql.<br>5. Clicar em <nome>.mdf e copiar o valor da variável que aparecerá no canto inferior direito em "Cadeia de Conexão" e colar em "paginateste5.cs", como valor da variável "String connectionString". Salve o código e compile.   
