@@ -28,9 +28,13 @@
     Para o funcionamento deste formulário, a necessidade da criação de um banco de dados (teste 6), foi muito alta. 
     O mesmo foi construído com SQL Server, que tem como intuito, salvar as informações, como solicitado do teste 10.
     
-  Para a construção deste foi necessário seguir o seguinte caminho:<br> gerenciador de servidores:<br><br> 1.  Adicionar conexão (depois de clicar com o botão direito)<br> 2. Usar o script sql no arquivo dbo.table.sql 
-para a criação da tabela<br> 3. Em propriedades da conexão, copiar a "Cadeia de conexão"<br>4. Adicionar à variável "String connectionString" em "paginateste5.cs"
-  # TESTES 5, 7 E 10: 
+  Para conectar com o banco de dados:<br><br> Em gerenciador de servidores:<br> 1.  Adicionar conexão (depois de clicar com o botão direito).<br> 2. Usar o script sql no arquivo dbo.table.sql 
+para a criação da tabela.<br><br>
+3. a)Selecionar "Arquivo de Banco de Dados do Microsoft SQL Server".<br> b) Adicionar um nome ao arquivo.<br>c) Usar Autenticação do Windows.<br> d)Adicionar um nome ao arquivo. <br><br>
+4. Clicar com o botão direito em Tabela e usar o código de dbo.Table.sql.<br>5. Clicar em <nome>.mdf e copiar o valor da variável que aparecerá no canto inferior direito em "Cadeia de Conexão" e colar em "paginateste5.cs", como valor da variável "String connectionString". Salve o código e compile.   
+6. A conexão deve estar funcionando!
+
+# TESTES 5, 7 E 10: 
   
   ![aluno aprovado](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/8b4375be-7d5b-4e9c-8947-b38f3cff2897)
   
