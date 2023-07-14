@@ -13,7 +13,7 @@
   Ao iniciar esta aplicação, é possível notar que os testes estão separados por 3 funções que os usuários podem escolher qual usar.
   A 1ª função realiza um cálculo de média de duas notas.
   A 2ª função realiza um cálculo de média para uma quantia x de provas, das quais cada nota são inseridas pelo usuário.
-  A 3ª função Permite a inserção das notas individuais de múltiplos alunos, retornando o resultado de suas médias,  junto a informação de aprovado ou reprovado. é possível inserir as informações de diversos alunos e terminar a execução do Programa digitando "fim".
+  A 3ª função permite a inserção das notas individuais de múltiplos alunos, retornando o resultado de suas médias,  junto a informação de aprovado ou reprovado. é possível inserir as informações de diversos alunos e terminar a execução do Programa digitando "fim".
 
  # SEGUNDA PASTA:
   
