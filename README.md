@@ -39,7 +39,7 @@ para a criação da tabela.<br><br>
 
   ![image](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/16fccb8a-1051-4795-871c-f4c440753fb2)
   
-  Imagem da página de Login dos professores que leva ao formulário de cadastro de notas
+  Imagem da página de Login dos professores que leva ao formulário de lançamento de notas
   
   ![aluno aprovado](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/8b4375be-7d5b-4e9c-8947-b38f3cff2897)
   
