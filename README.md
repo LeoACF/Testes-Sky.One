@@ -1,19 +1,19 @@
 # Testes-Sky.One
   Solução dos testes de .Net para o processo seletivo de Sky.One
 
-SOBRE O CONTEÚDO DO REPOSITÓRIO
+#SOBRE O CONTEÚDO DO REPOSITÓRIO
   A Primeira pasta, "Teste SkyOne 1-3" contém o código da Console Application dos testes 1-2-3.
   A Segunda contém um Windows forms com dois formulários para os testes 4-5-6-7-8-9-10, junto do script 
   sql para a criação da tabela usada no projeto.
 
-  PRIMEIRA PASTA:
+ #PRIMEIRA PASTA:
     
   Ao iniciar esta aplicação, é possível notar que os testes estão separados por 3 funções que os usuários podem escolher qual usar.
   A 1ª função realiza um cálculo de média de duas notas.
   A 2ª função realiza um cálculo de média para uma quantia x de provas, das quais cada nota são inseridas pelo usuário.
   A 3ª função Permite a inserção das notas individuais de múltiplos alunos, retornando o resultado de suas médias,  junto a informação de aprovado ou reprovado. é possível inserir as informações de diversos alunos e terminar a execução do Programa digitando "fim".
 
-  SEGUNDA PASTA:
+ #SEGUNDA PASTA:
   
   Está é mais complexa, pois trata-se de uma aplicação de Windows Forms junto de um banco de dados.
   O primeiro Form, (solução do teste 4) é uma página de Login para professor, nela é possível inserir Login e senha para acessar o formulário 
@@ -26,7 +26,7 @@ SOBRE O CONTEÚDO DO REPOSITÓRIO
     Para o funcionamento deste formulário, a necessidade da criação de um banco de dados (teste 6), foi muito alta. 
     O mesmo foi construído com SQL Server, que tem comoo intuito, salvar as informações, como solicitado do teste 10.
 
-  TESTE 5, 7 E 10 
+  #TESTES 5, 7 E 10: 
   
   ![aluno aprovado](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/8b4375be-7d5b-4e9c-8947-b38f3cff2897)
   
@@ -34,6 +34,8 @@ SOBRE O CONTEÚDO DO REPOSITÓRIO
   
   Nestas imagens é possível ver a inserção de um aluno aprovado e um reprovado, demonstrando assim a inserção de informações no banco para o
   teste7.
+
+  #TESTES 8 E 9:
   
   ![teste 8](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/dcefa746-c421-4f0c-89cd-c2e09416308b)
   
