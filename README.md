@@ -14,6 +14,7 @@ SOBRE O CONTEÚDO DO REPOSITÓRIO
   A 3ª função Permite a inserção das notas individuais de múltiplos alunos, retornando o resultado de suas médias,  junto a informação de aprovado ou reprovado. é possível inserir as informações de diversos alunos e terminar a execução do Programa digitando "fim".
 
   SEGUNDA PASTA:
+  
     Está é mais complexa, pois trata-se de uma aplicação de Windows Forms junto de um banco de dados.
   O primeiro Form, (solução do teste 4) é uma página de Login para professor, nela é possível inserir Login e senha para acessar o formulário 
   do teste 5. É válido ressaltar que é possível seguir para o Forms seguinte se e somente se ambas as caixas de texto 
@@ -26,6 +27,7 @@ SOBRE O CONTEÚDO DO REPOSITÓRIO
     O mesmo foi construído com SQL Server, que tem comoo intuito, salvar as informações, como solicitado do teste 10.
 
   TESTE 5, 7 E 10 
+  
   ![aluno aprovado](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/8b4375be-7d5b-4e9c-8947-b38f3cff2897)
   
   ![aluno reprovado](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/a836a763-1459-4a41-aa22-f0a5e59e0a94)
@@ -34,13 +36,16 @@ SOBRE O CONTEÚDO DO REPOSITÓRIO
   teste7.
   
   ![teste 8](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/dcefa746-c421-4f0c-89cd-c2e09416308b)
+  
   Teste8: consultar os alunos com notas menores ou iguais à 6,5 (portanto reprovados).
   A formula SQL utilizada é: "SELECT * FROM [dbo].[Alunos-Notas] WHERE [Media_Anual] <= 6.5;"
 
   ![teste 9](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/11876ff0-42e1-4857-88e0-2e00bdff5f6b)
+
   Teste9: consultar os alunos com notas maiores que 6 (portanto aprovados).
   A formula SQL utilizada é: "SELECT * FROM [dbo].[Alunos-Notas] WHERE [Media_Anual] > 6;"
   
   ![modificação do banco](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/678b6aef-5094-4435-9743-8508ac6df877)
+  
   Aqui são demonstrados os dados sendo armazenados no banco.
 
