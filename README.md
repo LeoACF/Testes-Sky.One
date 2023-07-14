@@ -38,6 +38,8 @@
   teste7.
 
   # TESTES 8 E 9:
+  Para as consultas realizadas no banco foi necessário clicar com o botão direito do mouse na tabela "Alunos" e selecionar "realizar uma consulta".
+  Nesta aba, foram utilizados os códigos apresentados nas legendas das imagens abaixo.
   
   ![teste 8](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/dcefa746-c421-4f0c-89cd-c2e09416308b)
   
