@@ -26,7 +26,7 @@
   (que também é imperativo que estejam preenchidas para o envio dos dados), e um de inserção das informações nas caixas de texto
   no banco de dados, funcionalidade do teste 7.
     Para o funcionamento deste formulário, a necessidade da criação de um banco de dados (teste 6), foi muito alta. 
-    O mesmo foi construído com SQL Server, que tem comoo intuito, salvar as informações, como solicitado do teste 10.
+    O mesmo foi construído com SQL Server, que tem como intuito, salvar as informações, como solicitado do teste 10.
 
   # TESTES 5, 7 E 10: 
   
@@ -42,12 +42,14 @@
   ![teste 8](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/dcefa746-c421-4f0c-89cd-c2e09416308b)
   
   Teste8: consultar os alunos com notas menores ou iguais à 6,5 (portanto reprovados).
-  ``SELECT * FROM [dbo].[Alunos-Notas] WHERE [Media_Anual] <= 6.5;``
+  
+  SQL:``SELECT * FROM [dbo].[Alunos-Notas] WHERE [Media_Anual] <= 6.5;``
 
   ![teste 9](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/11876ff0-42e1-4857-88e0-2e00bdff5f6b)
 
   Teste9: consultar os alunos com notas maiores que 6 (portanto aprovados).
-  ``SELECT * FROM [dbo].[Alunos-Notas] WHERE [Media_Anual] > 6;``
+  
+  SQL:``SELECT * FROM [dbo].[Alunos-Notas] WHERE [Media_Anual] > 6;``
   
   ![modificação do banco](https://github.com/LeoACF/Testes-Sky.One/assets/70867390/678b6aef-5094-4435-9743-8508ac6df877)
   
