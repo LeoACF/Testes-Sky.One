@@ -17,7 +17,7 @@
 
  # SEGUNDA PASTA:
       
- ## Para conectar com o banco de dados:<
+ ## Para conectar com o banco de dados:
  Em gerenciador de servidores:<br> 1.  Adicionar conexão (depois de clicar com o botão direito).<br> 2. Usar o script sql no arquivo dbo.table.sql 
 para a criação da tabela.<br><br>
 3. a)Selecionar "Arquivo de Banco de Dados do Microsoft SQL Server".<br> b) Adicionar um nome ao arquivo.<br>c) Usar Autenticação do Windows.<br> d)Adicionar um nome ao arquivo. <br><br>
