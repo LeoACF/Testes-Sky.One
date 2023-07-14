@@ -16,8 +16,14 @@
   A 3ª função permite a inserção das notas individuais de múltiplos alunos, retornando o resultado de suas médias,  junto a informação de aprovado ou reprovado. é possível inserir as informações de diversos alunos e terminar a execução do Programa digitando "fim".
 
  # SEGUNDA PASTA:
-  
-  Esta é mais complexa, pois trata-se de uma aplicação de Windows Forms junto de um banco de dados.
+      
+ ## Para conectar com o banco de dados:<br><br> Em gerenciador de servidores:<br> 1.  Adicionar conexão (depois de clicar com o botão direito).<br> 2. Usar o script sql no arquivo dbo.table.sql 
+para a criação da tabela.<br><br>
+3. a)Selecionar "Arquivo de Banco de Dados do Microsoft SQL Server".<br> b) Adicionar um nome ao arquivo.<br>c) Usar Autenticação do Windows.<br> d)Adicionar um nome ao arquivo. <br><br>
+4. Clicar com o botão direito em Tabela e usar o código de dbo.Table.sql.<br>5. Clicar em <nome>.mdf e copiar o valor da variável que aparecerá no canto inferior direito em "Cadeia de Conexão" e colar em "paginateste5.cs", como valor da variável "String connectionString". Salve o código e compile.   
+6. A conexão deve estar funcionando!
+
+ Esta é mais complexa, pois trata-se de uma aplicação de Windows Forms junto de um banco de dados.
   O primeiro Form, (solução do teste 4) é uma página de Login para professor, nela é possível inserir Login e senha para acessar o formulário 
   do teste 5. É válido ressaltar que é possível seguir para o Forms seguinte se e somente se ambas as caixas de texto 
   estiverem preenchidas.
@@ -27,12 +33,6 @@
   no banco de dados, funcionalidade do teste 7.
     Para o funcionamento deste formulário, a necessidade da criação de um banco de dados (teste 6), foi muito alta. 
     O mesmo foi construído com SQL Server, que tem como intuito, salvar as informações, como solicitado do teste 10.
-    
-  Para conectar com o banco de dados:<br><br> Em gerenciador de servidores:<br> 1.  Adicionar conexão (depois de clicar com o botão direito).<br> 2. Usar o script sql no arquivo dbo.table.sql 
-para a criação da tabela.<br><br>
-3. a)Selecionar "Arquivo de Banco de Dados do Microsoft SQL Server".<br> b) Adicionar um nome ao arquivo.<br>c) Usar Autenticação do Windows.<br> d)Adicionar um nome ao arquivo. <br><br>
-4. Clicar com o botão direito em Tabela e usar o código de dbo.Table.sql.<br>5. Clicar em <nome>.mdf e copiar o valor da variável que aparecerá no canto inferior direito em "Cadeia de Conexão" e colar em "paginateste5.cs", como valor da variável "String connectionString". Salve o código e compile.   
-6. A conexão deve estar funcionando!
 
 # TESTES 5, 7 E 10: 
   
