@@ -15,7 +15,7 @@ SOBRE O CONTEÚDO DO REPOSITÓRIO
 
   SEGUNDA PASTA:
   
-    Está é mais complexa, pois trata-se de uma aplicação de Windows Forms junto de um banco de dados.
+  Está é mais complexa, pois trata-se de uma aplicação de Windows Forms junto de um banco de dados.
   O primeiro Form, (solução do teste 4) é uma página de Login para professor, nela é possível inserir Login e senha para acessar o formulário 
   do teste 5. É válido ressaltar que é possível seguir para o Forms seguinte se e somente se ambas as caixas de texto 
   estiverem preenchidas.
